@@ -1,0 +1,98 @@
+[
+    {
+    "name": "Riddick",
+    "description":"Left for dead on a sun-scorched planet, Riddick finds himself ",
+    "duration": 119,
+    "ratings": 6.8,
+    "totalRating": 329,
+    "releaseYear": 2013,
+    "releaseDate": "2013-09-04T00:00:00Z",
+    "genres": [
+            "Action",
+            "Sci-Fi",
+            "Thriller"
+            ],
+    "directors": ["David Twohy"],
+    "coverImage": "Riddick-2013.jpg",
+    "actors": [
+        "Vin Diesel","Karl Urban","Katee Sackhoff"],
+    "price": 50
+    },
+    {
+        "name": "jersey",
+        "description":"A father for his son ",
+        "duration": 130,
+        "ratings": 10.0,
+        "totalRating": 999,
+        "releaseYear": 2020,
+        "releaseDate": "2020-09-04T00:00:00Z",
+        "genres": [
+                "emotion",
+                "comedy",
+                "suspense"
+                ],
+        "directors": ["rahul"],
+        "coverImage": ".jpg",
+        "actors": [
+            "Naani","shradha","vijay"],
+        "price": 150
+    },
+    {
+        "name": "aravinda sametha",
+        "description":"how to live the life peacefully",
+        "duration": 130,
+        "ratings":8.0,
+        "totalRating": 500,
+        "releaseYear": 2018,
+        "releaseDate": "2018-08-04T00:00:00Z",
+        "genres": [
+                "Action",
+                "Sci-Fi",
+                "Thriller"
+                ],
+        "directors": ["koratala"],
+        "coverImage": "Riddick-2013.jpg",
+        "actors": [
+            "NTR","pooja","Sunil"],
+        "price": 100
+    },
+    {
+        "name": "majnu",
+        "description":"life story between hero and heroine",
+        "duration": 119,
+        "ratings": 9.0,
+        "totalRating": 400,
+        "releaseYear": 2016,
+        "releaseDate": "2016-09-04T00:00:00Z",
+        "genres": [
+                "Action",
+                "Sci-Fi",
+                "Thriller",
+                "romance"
+                ],
+        "directors": ["rajamouli"],
+        "coverImage": "Riddick-2013.jpg",
+        "actors": [
+            "AA","Anushka","prabhas"],
+        "price": 100
+    },
+    {
+        "name": "Rid",
+        "description":"Riddick finds himself ",
+        "duration": 119,
+        "ratings": 6.8,
+        "totalRating": 329,
+        "releaseYear": 2013,
+        "releaseDate": "2013-09-04T00:00:00Z",
+        "genres": [
+                "Action",
+                "Sci-Fi",
+                "Thriller"
+                ],
+        "directors": ["David Twohy"],
+        "coverImage": "Riddick-2013.jpg",
+        "actors": [
+            "Vin Diesel","Karl Urban","Katee Sackhoff"],
+        "price": 50
+    }
+]
