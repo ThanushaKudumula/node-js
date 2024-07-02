@@ -1,0 +1,19 @@
+{
+  "name": "mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node connect.js",
+    "dev":"nodemon connect.js",
+    "dev2":"nodemon listing.js",
+    "dev3":"nodemon retrieve.js"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^4.13.0"
+  }
+}

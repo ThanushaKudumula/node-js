@@ -1,0 +1,42 @@
+[
+    {
+        "id" : 0,
+        "name": "APPLE iPhone SE",
+        "color": "Black",
+        "ROM": 128,
+        "price": 990,
+        "modelName": "iPhone SE",
+        "modelNumber": "MHGT3HN/A",
+        "size": "11.94 cm (4.7 inch) Retina HD Display",
+        "camera": "12MP Rear Camera | 7MP Front Camera",
+        "Description": "Widescreen HD LCD Retina Multi-touch IPS Display ",
+        "productImage":"http://atlas-content-cdn.pixelsquid.com/stock-images/iphone-x-smartphone-xwVXQLD-600.jpg"
+    },
+    {  
+        "id": 1,
+        "name": "iPhone XR",
+        "color": "White",
+        "ROM": 64,
+        "price": 790,
+        "modelName": "iPhone XR",
+        "modelNumber": "MH6N3HN/A",
+        "size": "15.49 cm (6.1 inch) Display",
+        "camera": "12MP Rear Camera | 7MP Front Camera",
+        "Description": "1400:1 Contrast Ratio (Typical), True Tone Display",
+        "productImage":"https://c8.alamy.com/zooms/6/e98284ded5444c08949d7fd9f2bae166/2cd68c5.jpg"
+    },
+    {  
+        "id": 2,
+        "name": "samsung",
+        "color": "yellow",
+        "ROM": 78,
+        "price": 780,
+        "modeName": "samsung a12",
+        "modelNumber": "MH6NHN/A",
+        "size": "15.49 cm (6.8 inch) Display",
+        "camera": "24MP Rear Camera | 12MP Front Camera",
+        "Description": "1500:1 Contrast Ratio (Typical), True Tone Display",
+        "productImage":"https://c8.alamy.com/zooms/6/e98284ded5444c08949d7fd9f2bae166/2cd68c5.jpg"
+    }
+
+]

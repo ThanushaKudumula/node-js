@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Portfolio Website Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -outline: 0;
+            font-family: Roboto, sans-serif, arial;
+        }
+
+        html,
+        body {
+            font-size: 14px;
+            font-weight: 400;
+            background: #011627;
+            color: #fff;
+        }
+
+        .bg-colorinfirst {
+            background: #011627;
+        }
+
+        .container {
+            width: 1100px;
+            margin: 0px auto;
+            display: table;
+        }
+
+        .width-33 {
+            width: 33%;
+            float: left;
+        }
+
+        .width-66 {
+            width: 66%;
+            float: left;
+        }
+
+        /*****MENU SECTION*****/
+        .main-panel {
+            width: 100%;
+            float: left;
+            padding-top: 20px;
+            padding-bottom: 50px;
+           
+        }
+
+        .logo {
+            font-size: 40px;
+            font-weight: 600;
+        }
+
+        .span-col {
+            color: #F71735;
+        }
+
+        nav {
+            float: right;
+        }
+
+        nav a {
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 500;
+            margin-left: 20px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- <--MENU SECTION --> 
+     <div class="main-panel">
+        <div class="container">
+            <div class="width-33 logo">Port<span class="span-col">folio</span></div>
+            <div class="width-66">
+                <nav>
+                    <a href="home">
+                        <span class="span-col">Home</span>
+                    </a>
+                    <a href="about">About</a>
+                    <a href="edu">Education</a>
+                    <a href="skill">My Skills</a>
+                    <a href="projects">Projects</a>
+                    <a href="contact">Contact Me</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h3 style="text-align: center;"> {{%CONTENT%}}</h3>
+    </div>
+</body>
+
+</html>
+
+

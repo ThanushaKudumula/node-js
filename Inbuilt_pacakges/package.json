@@ -1,0 +1,13 @@
+{
+  "name": "staticapi",
+  "version": "1.0.0",
+  "description": "creating a staticapi",
+  "main": "fs.js",
+  "scripts": {
+    "start": "node staticapi.js",
+    "dev": "nodemon http.js"
+  },
+  "author": "thanusha",
+  "license": "ISC",
+  "keywords": []
+}
