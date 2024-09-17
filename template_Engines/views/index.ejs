@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <style>
+        .content {
+            display: none;
+        }
+        .active {
+            display: block;
+        }
+        .center {
+            text-align: center;
+        }
+        .home-content {
+            text-align: center;
+            margin-top: 20px; 
+            border: 1px solid #ccc; 
+            padding: 10px;
+            background-color: #f0f0f0; 
+        }
+        .pagination {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .pagination a {
+            margin: 0 5px;
+            padding: 5px 10px;
+            text-decoration: none;
+            border: 1px solid #ccc;
+            color: #000;
+        }
+        .pagination a.active {
+            font-weight: bold;
+            background-color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <nav class="myNav">
+        <ul>
+            <li><a href="#" onclick="showContent('home')">Home</a></li>
+            <li><a href="#" onclick="showContent('about')">About</a></li>
+            <li><a href="#" onclick="showContent('edu')">Education</a></li>
+            <li><a href="#" onclick="showContent('skills')">Skills</a></li>
+            <li><a href="#" onclick="showContent('projects')">Projects</a></li>
+        </ul>
+    </nav>
+    <div id="home" class="content center active">
+        <% whose.forEach(function(name) { %>
+        <div class="home-content">
+            <h1>Hello, My name is <%= name %></h1>
+            <p>This is the home page content.</p>
+        </div>
+        <% }); %>
+        <section class="pagination">
+            <% for (let i = 1; i <= totalPages; i++) { %>
+                <a href="/portfolio/home?page=<%= i %>" class="<%= i === currentPage ? 'active' : '' %>"><%= i %></a>
+            <% } %>
+        </section>
+    </div>
+    <div id="about" class="content">
+        <h1>About Us</h1>
+        <p>This is the about page content.</p>
+    </div>
+
+    <div id="edu" class="content">
+        <h1>Education</h1>
+        <p>This is the education page content.</p>
+    </div>
+
+    <div id="skills" class="content">
+        <h1>Skills</h1>
+        <p>This is the skills page content.</p>
+    </div>
+
+    <div id="projects" class="content">
+        <h1>Projects</h1>
+        <p>This is the projects page content.</p>
+    </div>
+
+    <script>
+        function showContent(id) {
+            var contents = document.querySelectorAll('.content');
+            contents.forEach(function(content) {
+                content.classList.remove('active');
+            });
+            document.getElementById(id).classList.add('active');
+        }
+
+        // Show the home content by default
+        document.getElementById('home').classList.add('active');
+    </script>
+</body>
+</html>

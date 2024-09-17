@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This is my todo list app</h1>
+    <% todo.forEach(function(todo){%>
+        <h3><%=todo.id%> . <%=todo.task%></h3>
+        <form action="/edit/<%=todo.id%>">
+            <button type="submit">Edit</button>
+        </form>
+        <form action="/delete/<%=todo.id%>" method ='post'>
+            <button type="submit">Delete</button>
+        </form>
+    <% }) %>
+    <br>
+    <br>
+    <a href="/new">
+        <button type="submit">Create new todo</button>
+    </a>
+</body>
+</html>

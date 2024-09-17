@@ -1,0 +1,14 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Edit yor task</h1>
+    <form action="/edit/<%=edit.id %>" method="post">
+        <input type="text" value='<%=edit.task%>'name="edit">
+        <button type="submit">update todo</button>
+    </form>
+</body>
+</html>

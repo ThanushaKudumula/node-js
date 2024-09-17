@@ -1,0 +1,35 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+    <div>
+        <h1 style="color: black;">Blog Articles</h1>
+        <a href="/articles/new"><button style="background-color: darkgreen;">New Articles</button></a>
+    </div>
+    <div>
+        <% artic.forEach(function(artic){%>
+            <div >
+                <h1><%= artic.title%></h1>
+                <div>
+                    <h6><%= artic.createdAt.toLocaleDateString()%></h6>
+                </div>
+            </div>
+    </div>
+    <div>
+        <p>
+            <%= artic.description%>
+        </p>
+    </div>
+    
+    <%})%>
+    </div>
+
+</body>
+
+</html>
